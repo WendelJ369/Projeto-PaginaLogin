@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../image/fundo1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-family: arial;
+}
+
+input{
+        display: block;
+        height: 55px;
+        width: 400px;
+        margin: 10px;
+        border-radius: 30px;
+        border:1px solid #fdcf01;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgb(255, 255,255,0.01);
+    color: #fff;
+    outline: none;
+}
+input[type=submit]{
+    height: 50px;
+    width: 400px;
+    background-color: #fdcf01;
+    border: none;
+    cursor: pointer;
+}
+::-webkit-input-placeholder{
+	color: #fff;
+}
+::-moz-placeholder{
+	color: #fff;
+}
+div#corpo-form{
+    width: 420px;
+    margin: 150px auto 0px auto;
+}
+div#corpo-form-cad{
+	width: 420px;
+	margin: 80px auto 0px auto;
+}
+div#corpo-form h1{
+    color: #fdcf01;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    display: block;
+}
+a:hover{
+    text-decoration: underline;
+    
+}
+div#msg_sucesso{
+	width: 400px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(50, 205, 50 0.3);
+    border: 1px solid	rgb(34, 139, 34);
+}
+div.msg_erro{
+	width: 400px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(250, 128, 114, 0.3);
+	border: 1px solid	rgb(165, 42, 42);
+}
+form p {
+    color: #fff;
+}
+
+input::placeholder{
+color: rgb(255, 255, 255);  
+}
